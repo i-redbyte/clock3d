@@ -1,0 +1,114 @@
+# Detekt for Clock3D - JetBrains official Kotlin style (ktlint intellij_idea / android: false).
+# Run: ./gradlew detekt
+# Auto-format: ./gradlew detekt -PdetektAutoCorrect=true
+
+config:
+  validation: true
+
+build:
+  maxIssues: 0
+
+processors:
+  active: true
+
+complexity:
+  ComplexCondition:
+    active: false
+  CyclomaticComplexMethod:
+    active: true
+    threshold: 35
+  LongMethod:
+    active: true
+    threshold: 400
+  LongParameterList:
+    active: true
+    functionThreshold: 16
+    constructorThreshold: 16
+  TooManyFunctions:
+    active: true
+    thresholdInFiles: 200
+    thresholdInClasses: 120
+    thresholdInObjects: 120
+    thresholdInInterfaces: 120
+
+empty-blocks:
+  EmptyFunctionBlock:
+    active: true
+    ignoreOverridden: true
+
+exceptions:
+  TooGenericExceptionCaught:
+    active: false
+
+naming:
+  MatchingDeclarationName:
+    active: false
+  FunctionNaming:
+    active: true
+    ignoreAnnotated:
+      - Composable
+  TopLevelPropertyNaming:
+    active: true
+    constantPattern: '[A-Z][_A-Z0-9]*'
+
+performance:
+  SpreadOperator:
+    active: false
+
+potential-bugs:
+  Deprecation:
+    active: true
+
+style:
+  ForbiddenComment:
+    active: false
+  LoopWithTooManyJumpStatements:
+    active: false
+  MagicNumber:
+    active: false
+  MaxLineLength:
+    active: true
+    maxLineLength: 120
+    excludeCommentStatements: true
+  ReturnCount:
+    active: true
+    max: 10
+  ThrowsCount:
+    active: true
+    max: 6
+  WildcardImport:
+    active: false
+  UnusedImports:
+    active: true
+
+formatting:
+  active: true
+  android: false
+  autoCorrect: true
+  Filename:
+    active: false
+  NoWildcardImports:
+    active: false
+  MaximumLineLength:
+    active: true
+    maxLineLength: 120
+  ArgumentListWrapping:
+    maxLineLength: 120
+  FunctionReturnTypeSpacing:
+    maxLineLength: 120
+  ParameterListWrapping:
+    maxLineLength: 120
+  ParameterWrapping:
+    maxLineLength: 120
+  PropertyWrapping:
+    maxLineLength: 120
+  Wrapping:
+    maxLineLength: 120
+  TrailingCommaOnCallSite:
+    active: true
+    autoCorrect: true
+    useTrailingCommaOnCallSite: true
+  TrailingCommaOnDeclarationSite:
+    active: true
+    autoCorrect: true
+    useTrailingCommaOnDeclarationSite: true

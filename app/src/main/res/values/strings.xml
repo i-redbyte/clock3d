@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clock3D</string>
+    <string name="mode_classic">Классика</string>
+    <string name="mode_dali">Дали</string>
+    <string name="mode_spheres">Шары</string>
+    <string name="mode_ice">Лёд</string>
+    <string name="shader_link_failed">Это устройство не может собрать шейдер.</string>
+</resources>

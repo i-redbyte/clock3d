@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clock3D</string>
+    <string name="mode_classic">Classic</string>
+    <string name="mode_dali">Dalí</string>
+    <string name="mode_spheres">Spheres</string>
+    <string name="mode_ice">Ice</string>
+    <string name="shader_link_failed">This device cannot link the shader program.</string>
+</resources>

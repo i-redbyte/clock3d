@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Clock3d" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#FF040806</item>
+        <item name="android:navigationBarColor">#FF040806</item>
+        <item name="android:windowBackground">#FF040806</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>

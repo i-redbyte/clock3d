@@ -6,7 +6,7 @@ Kotlin · Jetpack Compose · GLES shaders in the RedByteFX DSL · scene meshes f
 
 > **Media:** GIFs live in [`docs/media/`](docs/media/). Open this README from the **clock3d** project root (paths are relative to this file).
 
-Recordings: **Samsung Galaxy S21**, physical device, ~4 s screen capture each - not an emulator.
+Recordings: **Samsung Galaxy S21**, physical device, **7 s** each - not an emulator.
 
 ---
 

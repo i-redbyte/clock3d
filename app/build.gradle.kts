@@ -12,7 +12,7 @@ detekt {
 
 android {
     namespace = "ru.redbyte.clock3d"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "ru.redbyte.clock3d"
